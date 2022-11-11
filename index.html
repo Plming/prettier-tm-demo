@@ -24,6 +24,8 @@
 
         // Load the image model and setup the webcam
         async function init() {
+            const MY_URL = "https://teachablemachine.withgoogle.com/models/oBLKoXAhG/";
+
             const modelURL = MY_URL + "model.json";
             const metadataURL = MY_URL + "metadata.json";
 
@@ -69,7 +71,6 @@
 
     <script type="text/javascript">
         /* 여기에 코드를 입력해주세요 */
-        const MY_URL = "https://teachablemachine.withgoogle.com/models/oBLKoXAhG/";
 
         model = await tmImage.load(modelURL, metadataURL);
         maxPredictions = model.getTotalClasses();
