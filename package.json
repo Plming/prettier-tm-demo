@@ -2,7 +2,6 @@
   "name": "teachable-machine-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,7 +17,6 @@
   },
   "homepage": "https://github.com/plming/teachable-machine-demo#readme",
   "dependencies": {
-    "@teachablemachine/image": "^0.8.5",
-    "typescript": "^4.8.4"
+    "typescript": "^4.9.3"
   }
 }
